@@ -1,6 +1,7 @@
 html
   head
     title!= title
+    link(rel="stylesheet",href="css/style.css")
 
   body
     h1 Address Lookup
@@ -8,14 +9,20 @@ html
     label(for="zipcode") Zipcode
     input(id="zipcode",name="zipcode")
 
-    label(for="city") City
-    input(id="city",name="city")
- 
     label(for="address") Address
     input(id="address",name="address")
 
-    label(for="state") State 
+    label(for="neighborhood") Neighbordhood
+    input(id="neighborhood",name="neighborhood")
+
+    label(for="city") City
+    input(id="city",name="city")
+
+    label(for="state") State
     input(id="state",name="state")
+
+    label(for="country") Country
+    input(id="country",name="country")
 
     button(id="fill-address") Fill address with current location
 
