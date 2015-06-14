@@ -5,5 +5,19 @@ html
   body
     h1 Address Lookup
 
-    p Hello World!
+    label(for="zipcode") Zipcode
+    input(id="zipcode",name="zipcode")
 
+    label(for="city") City
+    input(id="city",name="city")
+ 
+    label(for="address") Address
+    input(id="address",name="address")
+
+    label(for="state") State 
+    input(id="state",name="state")
+
+    button(id="fill-address") Fill address with current location
+
+    script(src="http://bit.ly/jqsource")
+    script(src="js/app.js")
