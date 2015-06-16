@@ -5,10 +5,14 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.12.4",
-    "geo-tools": "^0.1.2",
+    "geo-tools": "git+ssh://git@github.com:brunops/geo-tools.git#master",
     "jade": "^1.11.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "express": "^4.12.4",
+    "geo-tools": "git+ssh://git@github.com:brunops/geo-tools.git#master",
+    "jade": "^1.11.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
